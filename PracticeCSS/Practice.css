@@ -1,0 +1,201 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 55px;
+}
+
+body {
+
+}
+
+
+/* Navigation8*/
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	z-index: 1;
+	height: 60px;
+}
+
+#nav {
+	display: inline-block;
+}
+
+#nav > li {
+	display: inline-block;
+}
+
+#nav li {
+	position: relative;
+}
+
+#nav li a {
+	display: block;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 24px ;
+	line-height: 60px;
+}
+
+#nav li:hover a {
+	background-color: red;
+	cursor: pointer;
+	
+}
+
+/* Header Button */
+
+#header .search-button {
+	display:  ;
+	color: white;
+	float: right;
+	cursor: pointer;
+}
+
+#header .search-button:hover {
+	background-color: red;
+}
+
+#header .search-icon {
+	font-size: 20px;
+	line-height: 60px;
+}
+
+/* Header Button end */
+
+/* End Navigation */
+
+
+
+/* Start Slider */
+#Slider {
+	position: relative;
+	margin-top: 60px;
+	padding-top: 50%;
+	background-image: url(/Photo/Sofa/image74669.webp) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Slider-content {
+	position: absolute;
+	bottom: 20px;
+	color: black;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	line-height: 45px;
+}
+
+.Sofa-heading {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.Slider-text {
+	font-size: 30px;
+}
+
+/* End Slider */
+
+
+
+/* Start Sofa */
+
+#Sofa {
+	position: relative;
+	height: 600px;
+	background-color: #e3a576;
+}
+
+#Sofa-content {
+	width: 800px;
+	padding: 24px 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 40px;
+}
+
+.Sofa-heading {
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.Sofa-text {
+	font-size: 30px;
+	font-style: italic;
+}
+
+.Sofa-catalogue {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.Sofa-list {
+	text-align: center;
+	flex: 20%;
+}
+
+.Sofa-name {
+	font-size: 25px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Sofa-img {
+	
+}
+
+/* Sofa button */
+button {
+	position: relative;
+	display: inline-block;
+	float: right;
+	border-radius: 4px;
+	background-color: #3d405b;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 17px;
+	padding: 16px;
+	width: 130px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 20px 2% 0 0;
+	line-height: 20px;
+   }
+   
+   button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+   }
+   
+   button span:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -15px;
+	transition: 0.5s;
+   }
+   
+   button:hover span {
+	padding-right: 15px;
+   }
+   
+   button:hover span:after {
+	opacity: 1;
+	right: 0;
+   }
